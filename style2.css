@@ -1,0 +1,33 @@
+
+
+.album{
+    
+	width: 100%;/*le decimos que ocupe toda la pantalla*/
+    display: flex;/*y que se ajuste al tamaño de la pantalla*/
+    gap: 10px;/*y un espacio entre las fotos*/
+    padding: 15px;
+    background-color: antiquewhite;/*le damos un color de fondo*/
+   
+}
+
+.album img{
+
+    width: 100%;/*las imagenes ocuparan toda las columna y fila*/
+    cursor: pointer;/*cuando el cursor se coloque ensima de una foto se activa el dedito*/
+    transition: 1s;/*y el tiempo de la transicion*/
+}
+
+.album :hover{
+    transform: scale(1.1);/*la escala de la transicion*/
+}
+
+.colum {
+flex: 25%;
+padding: 0px;
+
+}
+
+.colum img{
+    margin-top: 5px;
+
+}

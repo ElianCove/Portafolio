@@ -73,3 +73,21 @@ border-radius: 10%;/*y a nuestra caja le redondeamos las esquinas*/
     transform: scale(1.3);/*aumentara su tamaño*/
 
  }
+ .image {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 10px ;
+    transition: all 0.25s ease-in-out;
+ }
+ .image a  {
+  
+    color: white;
+ }
+ .image :hover {
+   
+    color: #b9b9b9;
+    transform: scale(1.2);
+
+ }
+
+ 
